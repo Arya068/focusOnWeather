@@ -16,8 +16,8 @@ const getWeatherData = async () => {
 let tempCity="Lucknow";
 if (city)
     tempCity=city
-const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=${tempCity}&
-APPID=ec4fcd50ecbd9935df9015005cb699ec`;
+const weatherUrl = `httpss://api.openweathermap.org/data/2.5/weather?q=${tempCity}&
+APPID=`;
 
 try{
     const res = await fetch(weatherUrl);
